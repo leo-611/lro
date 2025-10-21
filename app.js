@@ -7,3 +7,12 @@ const pokemon_input = document.getElementById("input");
 
 const pokemon_prev = document.getElementById("bnt-prev");
 const pokemon_next = document.getElementById("btn-next");
+
+let searchpokemon = 1 ;
+
+
+const fetchpokemon = async (pokemon) => {
+    const APIResponse = await fetch
+    (`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
+    
+}
